@@ -1,4 +1,4 @@
 FROM debian:9
 
-RUN bash -c "chmod +x ./entrypoint.sh"
+RUN "chmod +x ./entrypoint.sh"
 ENTRYPOINT ["./entrypoint.sh"]
