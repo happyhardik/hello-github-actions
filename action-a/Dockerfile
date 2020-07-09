@@ -1,2 +1,2 @@
 FROM debian:9
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
